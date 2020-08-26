@@ -1,3 +1,7 @@
+hi = Song.new("sweet dreams")
+hi.name
+
+
 class Artist
   extend Concerns::Findable
   attr_accessor :name
